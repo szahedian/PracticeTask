@@ -1,5 +1,5 @@
 library(yaml)
-CONFIG <- yaml.load_file("config_global.yaml")
+CONFIG <- yaml.load_file("./../../config_global.yaml")
 
 main <- function() {
     x <- 1:300000
