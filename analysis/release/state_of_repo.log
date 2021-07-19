@@ -8,25 +8,19 @@ as it can be edited after state_of_repo.log finishes running
 ===================================
 Last commit:
 
-commit bf65ab3cfc58aa950beae26920814da1c8fb971b
-Merge: fd62323 63deb05
-Author: Saam Zahedian <35503139+szahedian@users.noreply.github.com>
-Date:   Fri Jul 16 16:32:50 2021 -0400
+commit 5ac7860f587e01d22595e4cc50af605e69374355
+Author: Saam Zahedian <snz@snz.myfiosgateway.com>
+Date:   Mon Jul 19 18:11:24 2021 -0400
 
-    Merge pull request #2 from szahedian/issue1-update_readme
-    
-    PR for #1: Update README to reflect repo purpose
+    Add SCons build stage that downloads PracticeTask data from Dropbox
 
 
 Files changed since last commit:
 
 
-analysis/SConstruct
-analysis/config_global.yaml
 analysis/release/descriptive/plot.eps
 analysis/release/descriptive/sconscript_descriptive.log
-analysis/release/sconstruct.log
-analysis/release/state_of_repo.log
+analysis/source/descriptive/descriptive.py
 
 ===================================
 
@@ -40,17 +34,17 @@ analysis/release/state_of_repo.log
    modified on: 16 Jul 2021 16:02:33
    size of file: 449
 ./state_of_repo.log:
-   modified on: 19 Jul 2021 18:09:17
-   size of file: 777
+   modified on: 19 Jul 2021 18:12:20
+   size of file: 616
 ./SConstruct:
-   modified on: 19 Jul 2021 18:03:20
-   size of file: 1920
+   modified on: 19 Jul 2021 18:10:18
+   size of file: 1962
 ./config_global.yaml:
    modified on: 19 Jul 2021 18:05:38
    size of file: 1389
 ./sconstruct.log:
-   modified on: 19 Jul 2021 18:09:17
-   size of file: 246
+   modified on: 19 Jul 2021 18:12:20
+   size of file: 347
 ./source/prepare_data/create_data.m:
    modified on: 16 Jul 2021 16:02:33
    size of file: 202
@@ -70,8 +64,8 @@ analysis/release/state_of_repo.log
    modified on: 16 Jul 2021 16:57:37
    size of file: 249
 ./source/descriptive/descriptive.py:
-   modified on: 19 Jul 2021 18:01:30
-   size of file: 548
+   modified on: 19 Jul 2021 18:12:10
+   size of file: 544
 ./source/descriptive/SConscript:
    modified on: 16 Jul 2021 16:02:33
    size of file: 501
@@ -79,19 +73,19 @@ analysis/release/state_of_repo.log
    modified on: 19 Jul 2021 18:09:13
    size of file: 429
 ./release/state_of_repo.log:
-   modified on: 19 Jul 2021 18:08:58
-   size of file: 3289
+   modified on: 19 Jul 2021 18:09:17
+   size of file: 3378
 ./release/sconstruct.log:
-   modified on: 19 Jul 2021 18:08:58
-   size of file: 250
+   modified on: 19 Jul 2021 18:09:17
+   size of file: 297
 ./release/descriptive/sconscript_descriptive.log:
-   modified on: 19 Jul 2021 18:01:58
+   modified on: 19 Jul 2021 18:12:20
    size of file: 96
 ./release/descriptive/plot.eps:
-   modified on: 19 Jul 2021 18:01:58
+   modified on: 19 Jul 2021 18:12:20
    size of file: 12351
 ./release/descriptive/table.txt:
-   modified on: 19 Jul 2021 18:01:58
+   modified on: 19 Jul 2021 18:12:20
    size of file: 39
 ./release/lg/data.txt:
    modified on: 16 Jul 2021 16:41:40
@@ -106,13 +100,13 @@ analysis/release/state_of_repo.log
    modified on: 16 Jul 2021 16:41:40
    size of file: 1988897
 ./build/descriptive/sconscript_descriptive.log:
-   modified on: 19 Jul 2021 18:01:58
+   modified on: 19 Jul 2021 18:12:20
    size of file: 96
 ./build/descriptive/plot.eps:
-   modified on: 19 Jul 2021 18:01:58
+   modified on: 19 Jul 2021 18:12:20
    size of file: 12351
 ./build/descriptive/table.txt:
-   modified on: 19 Jul 2021 18:01:58
+   modified on: 19 Jul 2021 18:12:20
    size of file: 39
 ./build/external/data.txt:
    modified on: 23 Sep 2020 15:46:59
