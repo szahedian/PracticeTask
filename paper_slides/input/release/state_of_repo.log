@@ -34,7 +34,7 @@ analysis/release/state_of_repo.log
    modified on: 16 Jul 2021 16:02:33
    size of file: 449
 ./state_of_repo.log:
-   modified on: 19 Jul 2021 18:21:17
+   modified on: 19 Jul 2021 18:20:57
    size of file: 574
 ./SConstruct:
    modified on: 19 Jul 2021 18:20:51
@@ -43,8 +43,8 @@ analysis/release/state_of_repo.log
    modified on: 19 Jul 2021 18:05:38
    size of file: 1389
 ./sconstruct.log:
-   modified on: 19 Jul 2021 18:21:17
-   size of file: 238
+   modified on: 19 Jul 2021 18:20:57
+   size of file: 199
 ./source/prepare_data/create_data.m:
    modified on: 16 Jul 2021 16:02:33
    size of file: 202
@@ -73,10 +73,10 @@ analysis/release/state_of_repo.log
    modified on: 19 Jul 2021 18:09:13
    size of file: 429
 ./release/state_of_repo.log:
-   modified on: 19 Jul 2021 18:20:57
-   size of file: 3175
+   modified on: 19 Jul 2021 18:15:52
+   size of file: 3088
 ./release/sconstruct.log:
-   modified on: 19 Jul 2021 18:20:57
+   modified on: 19 Jul 2021 18:15:52
    size of file: 250
 ./release/descriptive/sconscript_descriptive.log:
    modified on: 19 Jul 2021 18:12:20

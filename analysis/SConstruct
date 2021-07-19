@@ -52,3 +52,5 @@ SConscript('source/external/SConscript') # download PracticeTask data from Dropb
 SConscript('source/prepare_data/SConscript')
 SConscript('source/descriptive/SConscript')
 Default('./build', './release')
+
+env.Install('../paper_slides/input', '#release/')
