@@ -7,6 +7,7 @@ build:
   descriptive: build/descriptive
   external: build/external
   draw_data: build/draw_data
+  plot: build/plot
 
 
 # Source Directories
@@ -15,6 +16,7 @@ source:
   descriptive: source/descriptive
   external: source/external
   draw_data: source/draw_data
+  plot: source/plot
 
 dropbox:
   data: 'GSLab:GSLab\ Team\ Folder/Practice\ Task/data.txt'

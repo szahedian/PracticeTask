@@ -8,21 +8,11 @@ as it can be edited after state_of_repo.log finishes running
 ===================================
 Last commit:
 
-commit f0f74b59db9c4b37a022aefcfdec014d7a0bf931
-Author: Saam Zahedian <35503139+szahedian@users.noreply.github.com>
-Date:   Tue Jul 20 10:23:54 2021 -0400
+commit 6300d2717d9c15686fd361421179309630f12386
+Author: Saam Zahedian <snz@snz.myfiosgateway.com>
+Date:   Tue Jul 20 11:48:37 2021 -0400
 
-    PR for #5: Dropbox integration (#6)
-    
-    * Add SCons build stage that downloads PracticeTask data from Dropbox
-    
-    * Descriptive stats build now references Dropbox data
-    
-    * Change .gitignore so that SConscript that downloads Dropbox data is tracked
-    
-    * Install outputs from analysis into paper_slides
-    
-    Co-authored-by: Saam Zahedian <snz@snz.myfiosgateway.com>
+    Add draw_data submodule to analysis
 
 
 Files changed since last commit:
@@ -32,6 +22,7 @@ analysis/SConstruct
 analysis/config_global.yaml
 analysis/release/sconstruct.log
 analysis/release/state_of_repo.log
+analysis/source/draw_data/draw_data.py
 
 ===================================
 
@@ -45,25 +36,28 @@ analysis/release/state_of_repo.log
    modified on: 16 Jul 2021 16:02:33
    size of file: 449
 ./state_of_repo.log:
-   modified on: 20 Jul 2021 11:47:23
-   size of file: 935
-./some.py:
-   modified on: 20 Jul 2021 11:39:53
-   size of file: 412
+   modified on: 20 Jul 2021 13:26:41
+   size of file: 601
 ./SConstruct:
-   modified on: 20 Jul 2021 11:14:59
-   size of file: 2092
+   modified on: 20 Jul 2021 13:18:53
+   size of file: 2165
 ./config_global.yaml:
-   modified on: 20 Jul 2021 10:56:33
-   size of file: 1449
+   modified on: 20 Jul 2021 12:59:23
+   size of file: 1488
 ./sconstruct.log:
-   modified on: 20 Jul 2021 11:47:23
-   size of file: 247
+   modified on: 20 Jul 2021 13:26:41
+   size of file: 278
+./source/plot/plot.py:
+   modified on: 20 Jul 2021 13:26:31
+   size of file: 306
+./source/plot/SConscript:
+   modified on: 20 Jul 2021 12:52:33
+   size of file: 420
 ./source/draw_data/draw_data.py:
-   modified on: 20 Jul 2021 11:47:20
-   size of file: 359
+   modified on: 20 Jul 2021 13:18:33
+   size of file: 376
 ./source/draw_data/SConscript:
-   modified on: 20 Jul 2021 11:02:08
+   modified on: 20 Jul 2021 12:57:36
    size of file: 258
 ./source/prepare_data/.Rhistory:
    modified on: 20 Jul 2021 10:34:45
@@ -96,11 +90,17 @@ analysis/release/state_of_repo.log
    modified on: 20 Jul 2021 10:24:22
    size of file: 429
 ./release/state_of_repo.log:
-   modified on: 20 Jul 2021 11:46:56
-   size of file: 3976
+   modified on: 20 Jul 2021 13:19:17
+   size of file: 3985
 ./release/sconstruct.log:
-   modified on: 20 Jul 2021 11:46:56
-   size of file: 2292
+   modified on: 20 Jul 2021 13:19:17
+   size of file: 3134
+./release/plot/plot.eps:
+   modified on: 20 Jul 2021 13:26:41
+   size of file: 13027
+./release/plot/sconscript_plot.log:
+   modified on: 20 Jul 2021 13:26:41
+   size of file: 96
 ./release/descriptive/sconscript_descriptive.log:
    modified on: 20 Jul 2021 10:24:22
    size of file: 96
@@ -113,12 +113,18 @@ analysis/release/state_of_repo.log
 ./release/lg/data.txt:
    modified on: 16 Jul 2021 16:41:40
    size of file: 1988897
+./build/plot/plot.eps:
+   modified on: 20 Jul 2021 13:26:41
+   size of file: 13027
+./build/plot/sconscript_plot.log:
+   modified on: 20 Jul 2021 13:26:41
+   size of file: 96
 ./build/draw_data/sconscript_draw_data.log:
-   modified on: 20 Jul 2021 11:47:23
+   modified on: 20 Jul 2021 13:18:36
    size of file: 96
 ./build/draw_data/data.txt:
-   modified on: 20 Jul 2021 11:47:23
-   size of file: 509967
+   modified on: 20 Jul 2021 13:18:36
+   size of file: 149976
 ./build/prepare_data/sconscript_create_data.log:
    modified on: 20 Jul 2021 10:58:58
    size of file: 96

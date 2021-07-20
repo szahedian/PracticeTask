@@ -9,6 +9,6 @@ def main():
     samples = np.random.multivariate_normal(mean=mean, cov=cov, size=size)
 
     CONFIG = yaml.load(open('config_global.yaml', 'rU'))
-    np.savetxt("%s/data.txt" % CONFIG['build']['draw_data'], samples, delimiter=",")
+    np.savetxt("%s/data.txt" % CONFIG['build']['draw_data'], samples, delimiter=",", fmt='%.4f,%.4f')
 
 main()
