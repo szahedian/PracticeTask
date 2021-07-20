@@ -5,11 +5,16 @@ gslab_version: 4.1.1
 build:
   prepare_data: build/prepare_data
   descriptive: build/descriptive
+  external: build/external
 
 # Source Directories
 source:
   prepare_data: source/prepare_data
   descriptive: source/descriptive
+  external: source/external
+
+dropbox:
+  data: 'GSLab:GSLab\ Team\ Folder/Practice\ Task/data.txt'
 
 # Input Directories (will record contents)
 input: None

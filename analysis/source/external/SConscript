@@ -1,0 +1,15 @@
+Import('env')
+
+import os
+
+def dropbox_data():
+    '''Download data.txt from PracticeTask Dropbox folder'''
+    dbox_data_path  = env['CONFIG']['global']['dropbox']['data']
+    local_data_path = env['CONFIG']['global']['build']['external']
+
+    env.Command(source = [],
+                target = ["#/%s/data.txt" % local_data_path],
+                action = 'rclone copy %s %s' % (dbox_data_path, local_data_path))
+
+
+dropbox_data()
