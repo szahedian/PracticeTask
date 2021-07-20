@@ -6,12 +6,15 @@ build:
   prepare_data: build/prepare_data
   descriptive: build/descriptive
   external: build/external
+  draw_data: build/draw_data
+
 
 # Source Directories
 source:
   prepare_data: source/prepare_data
   descriptive: source/descriptive
   external: source/external
+  draw_data: source/draw_data
 
 dropbox:
   data: 'GSLab:GSLab\ Team\ Folder/Practice\ Task/data.txt'

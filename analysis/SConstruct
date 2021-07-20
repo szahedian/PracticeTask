@@ -48,6 +48,7 @@ atexit.register(gs.scons_debrief, args = debrief_args)
 
 # Run sub-trees
 SConscript('source/external/SConscript') # download PracticeTask data from Dropbox
+SConscript('source/draw_data/SConscript') # draw data from multivariate normal
 
 SConscript('source/prepare_data/SConscript')
 SConscript('source/descriptive/SConscript')
