@@ -1,8 +1,15 @@
-*** New build: {2021-07-19 18:21:17} ***
+*** New build: {2021-07-20 10:38:54} ***
 scons: done reading SConscript files.
 scons: Building targets ...
-Install directory: "release" as "/Users/snz/Documents/SIEPR/PracticeTask/paper_slides/input/release"
+build_r(["build/prepare_data/data.txt"], ["source/prepare_data/create_data.r"])
+scons: `release' is up to date.
 scons: done building targets.
-*** Build completed: {2021-07-19 18:21:17} ***
+*** Build completed: {2021-07-20 10:38:55} ***
  
  
+./build/prepare_data/sconscript_create_data.log
+*** Builder log created: {2021-07-20 10:38:54}
+*** Builder log completed: {2021-07-20 10:38:55}
+running
+  '/Library/Frameworks/R.framework/Versions/4.1/Resources/bin/R --no-echo --no-restore --no-save --no-restore --file=source/prepare_data/create_data.r'
+
