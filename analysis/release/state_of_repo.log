@@ -8,21 +8,26 @@ as it can be edited after state_of_repo.log finishes running
 ===================================
 Last commit:
 
-commit 6300d2717d9c15686fd361421179309630f12386
-Author: Saam Zahedian <snz@snz.myfiosgateway.com>
-Date:   Tue Jul 20 11:48:37 2021 -0400
+commit 3e134ee48e408585c430b39262745587db847310
+Author: Saam Zahedian <35503139+szahedian@users.noreply.github.com>
+Date:   Wed Jul 21 20:01:37 2021 -0400
 
-    Add draw_data submodule to analysis
+    PR for #9: Add draw_data submodule to analysis (#10)
+    
+    * Add draw_data submodule to analysis
+    
+    * Add plot submodule to analysis that uses draw_data and installs plots to release
+    
+    Co-authored-by: Saam Zahedian <snz@snz.myfiosgateway.com>
 
 
 Files changed since last commit:
 
 
 analysis/SConstruct
-analysis/config_global.yaml
 analysis/release/sconstruct.log
 analysis/release/state_of_repo.log
-analysis/source/draw_data/draw_data.py
+analysis/source/prepare_data/SConscript
 
 ===================================
 
@@ -36,28 +41,28 @@ analysis/source/draw_data/draw_data.py
    modified on: 16 Jul 2021 16:02:33
    size of file: 449
 ./state_of_repo.log:
-   modified on: 20 Jul 2021 13:26:41
-   size of file: 601
+   modified on: 23 Jul 2021 09:53:11
+   size of file: 815
 ./SConstruct:
-   modified on: 20 Jul 2021 13:18:53
-   size of file: 2165
+   modified on: 23 Jul 2021 09:52:56
+   size of file: 2163
 ./config_global.yaml:
-   modified on: 20 Jul 2021 12:59:23
+   modified on: 23 Jul 2021 09:48:43
    size of file: 1488
 ./sconstruct.log:
-   modified on: 20 Jul 2021 13:26:41
-   size of file: 278
+   modified on: 23 Jul 2021 09:53:11
+   size of file: 254
 ./source/plot/plot.py:
-   modified on: 20 Jul 2021 13:26:31
+   modified on: 23 Jul 2021 09:48:43
    size of file: 306
 ./source/plot/SConscript:
-   modified on: 20 Jul 2021 12:52:33
+   modified on: 23 Jul 2021 09:48:43
    size of file: 420
 ./source/draw_data/draw_data.py:
-   modified on: 20 Jul 2021 13:18:33
+   modified on: 23 Jul 2021 09:48:43
    size of file: 376
 ./source/draw_data/SConscript:
-   modified on: 20 Jul 2021 12:57:36
+   modified on: 23 Jul 2021 09:48:43
    size of file: 258
 ./source/prepare_data/.Rhistory:
    modified on: 20 Jul 2021 10:34:45
@@ -69,10 +74,10 @@ analysis/source/draw_data/draw_data.py
    modified on: 16 Jul 2021 16:02:33
    size of file: 81
 ./source/prepare_data/create_data.do:
-   modified on: 16 Jul 2021 16:02:33
+   modified on: 23 Jul 2021 09:43:38
    size of file: 262
 ./source/prepare_data/SConscript:
-   modified on: 20 Jul 2021 10:44:50
+   modified on: 23 Jul 2021 09:53:08
    size of file: 1126
 ./source/prepare_data/create_data.py:
    modified on: 16 Jul 2021 16:02:33
@@ -90,16 +95,16 @@ analysis/source/draw_data/draw_data.py
    modified on: 20 Jul 2021 10:24:22
    size of file: 429
 ./release/state_of_repo.log:
-   modified on: 20 Jul 2021 13:19:17
-   size of file: 3985
+   modified on: 23 Jul 2021 09:53:03
+   size of file: 4325
 ./release/sconstruct.log:
-   modified on: 20 Jul 2021 13:19:17
-   size of file: 3134
+   modified on: 23 Jul 2021 09:53:03
+   size of file: 92
 ./release/plot/plot.eps:
-   modified on: 20 Jul 2021 13:26:41
+   modified on: 23 Jul 2021 09:48:43
    size of file: 13027
 ./release/plot/sconscript_plot.log:
-   modified on: 20 Jul 2021 13:26:41
+   modified on: 23 Jul 2021 09:48:43
    size of file: 96
 ./release/descriptive/sconscript_descriptive.log:
    modified on: 20 Jul 2021 10:24:22
@@ -126,13 +131,13 @@ analysis/source/draw_data/draw_data.py
    modified on: 20 Jul 2021 13:18:36
    size of file: 149976
 ./build/prepare_data/sconscript_create_data.log:
-   modified on: 20 Jul 2021 10:58:58
-   size of file: 96
+   modified on: 23 Jul 2021 09:53:11
+   size of file: 1519
 ./build/prepare_data/table.txt:
    modified on: 19 Jul 2021 18:00:27
    size of file: 39
 ./build/prepare_data/data.txt:
-   modified on: 20 Jul 2021 10:58:58
+   modified on: 23 Jul 2021 09:53:11
    size of file: 1988897
 ./build/descriptive/sconscript_descriptive.log:
    modified on: 19 Jul 2021 18:12:20
